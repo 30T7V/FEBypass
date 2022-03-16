@@ -1,4 +1,4 @@
-local Lexer = require(script.lexer)
+local Lexer = loadstring(game:HttpGet("https://raw.githubusercontent.com/30T7V/FEBypass/main/Lexer", true))()
 
 local TokenColors = {}
 local TokenFormats = {}
